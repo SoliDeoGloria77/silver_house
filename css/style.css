@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+nav .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu a {
+    color: rgb(140, 138, 138);
+    font-size: 18px;
+    margin: 0 15px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.logo {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.picture {
+    margin-top: 17px;
+    width: 100%;
+}
+main .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.desc1 {
+    background: #F0F0F0;
+    margin-top: 30px;
+    max-width: 730px;
+    width: 100%;
+    padding: 50px 95px 51px 40px;
+}
+.content {
+    background: #F0F0F0;
+    margin-top: 30px;
+    max-width: 350px;
+    width: 100%;
+    padding: 50px 24px 51px 40px;
+}
+h1 {
+    color: #4581B7;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+p {
+    color: #808080;
+    line-height: 27px;
+}
+h2 {
+    margin-bottom: 25px;
+    color: #4581B7;
+    font-size: 20px;
+}
+.call {
+    color: #808080;
+    margin-top: 27px;
+    display: block;
+}
+.info {
+    color: #808080;
+    margin-top: 54px;
+    display: block;
+}
+h3 {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+} 
+.call2 {
+    color: #808080;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 11px;
+}
+.desc1 .container {
+    padding-left: 40px;
+    padding-right: 95px;
+    max-width: 730px;
+    width: 100%;
+}
+footer .group {
+    background: #F0F0F0;
+    color: #808080;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+footer img {
+    max-width: 254px;
+    width: 100%;
+}
+footer a {
+    color: #808080;
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    margin-top: 11px;
+    text-align: right;
+}
+.wrapper {
+    margin: 15px 0;
+}
